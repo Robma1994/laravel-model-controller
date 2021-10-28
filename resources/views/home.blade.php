@@ -1,1 +1,6 @@
-<h1>Ciao mondo</h1>
+<div class="container">
+    @foreach ($movies as $movie) {
+        <h1>{{ $movie['title'] }}</h1>
+        }   
+    @endforeach
+</div>
